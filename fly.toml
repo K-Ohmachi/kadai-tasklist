@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for tasklist-k-ohmachi on 2023-05-06T06:47:55Z
+# fly.toml app configuration file generated for tasklist-k-ohmachi on 2023-05-13T11:43:49Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -20,10 +20,10 @@ primary_region = "nrt"
   APP_NAME = "Laravel"
   APP_DEBUG = false
   DB_CONNECTION = "pgsql"
-  DB_HOST = "db.zqkldxrrprgirmhqmzga.supabase.co"
+  DB_HOST="db.zqkldxrrprgirmhqmzga.supabase.co"
   DB_PORT = 5432
-  DB_DATABASE = "postgres"
-  DB_USERNAME = "postgres"
+  DB_DATABASE="postgres"
+  DB_USERNAME="postgres"
 
 [http_service]
   internal_port = 8080
